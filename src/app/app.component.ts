@@ -8,11 +8,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
   selector: 'app-root',
   standalone: true,
   imports: [CommonModule, RouterOutlet, NavigationComponent, DashboardComponent],
-  //templateUrl: './app.component.html',
-  template: `
-    <app-navigation></app-navigation>
-    <app-dashboard></app-dashboard>
-  `,
+  templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {

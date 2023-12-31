@@ -1,0 +1,7 @@
+body{
+    display: grid;
+    grid-template-columns: minmax(5em, auto);
+    grid-template-rows: minmax(5em, auto);
+    grid-template-areas: 
+    "nav main";
+}
