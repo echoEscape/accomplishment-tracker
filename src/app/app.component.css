@@ -1,7 +1,21 @@
 body{
+    padding:0;
+    margin:0;
+}
+
+#home{
     display: grid;
-    grid-template-columns: minmax(5em, auto);
-    grid-template-rows: minmax(5em, auto);
+    grid-template-columns: 50vw;
+    grid-template-rows: 100vh;
     grid-template-areas: 
     "nav main";
+}
+
+app-navigation{
+    grid-area: nav;
+    background-color: #118ab2;
+}
+
+app-dashboard{
+    grid-area: main;
 }
