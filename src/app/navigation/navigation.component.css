@@ -1,3 +1,4 @@
-nav {
-    
+.menu-icon{
+    color: var(--color-font-darkBG);
+    font-size: var(--size-icon);
 }

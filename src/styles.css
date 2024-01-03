@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    --color-error: #ef476f;
+    --color-warning: #ffd166;
+    --color-ok: #06d6a0;
+    --color-info: #118ab2;
+
+    --color-main: #0f2556;
+    --color-main-accent: #5570aa;
+    --color-sub: #33b881;
+    --color-sub-accent: #89eec4;
+
+    --color-font-lightBG: #333333;
+    --color-font-darkBG: #f6f6f6;
+
+    --font-family-headings: "Arial";
+
+    --size-icon: 2.5rem;
+}
