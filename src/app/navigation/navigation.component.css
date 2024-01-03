@@ -1,4 +1,23 @@
+nav{
+    height: 100vh;
+    display: grid;
+    flex-direction: row;
+    justify-items: center;
+    padding-top: 1rem;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
 .menu-icon{
+    color: var(--color-font-darkBG);
+    font-size: var(--size-icon);
+}
+
+.close-icon{
     color: var(--color-font-darkBG);
     font-size: var(--size-icon);
 }
