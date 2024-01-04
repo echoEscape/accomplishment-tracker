@@ -17,3 +17,11 @@
 
     --size-icon: 2.5rem;
 }
+
+.visible-element-grid{
+    display: grid;
+}
+
+.invisible-element{
+    display: none;
+}

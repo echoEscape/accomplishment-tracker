@@ -12,12 +12,12 @@ ul{
     list-style-type: none;
 }
 
-.menu-icon{
+#menuIcon{
     color: var(--color-font-darkBG);
     font-size: var(--size-icon);
 }
 
-.close-icon{
+#closeIcon{
     color: var(--color-font-darkBG);
     font-size: var(--size-icon);
 }
