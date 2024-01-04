@@ -5,7 +5,7 @@ body{
 
 #home{
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: fit-content(100%);
     grid-template-rows: 100vh;
     grid-template-areas: 
     "nav main";
