@@ -5,6 +5,9 @@ nav{
     justify-items: center;
     padding-top: 1rem;
 }
+nav>ul>li{
+    cursor: pointer;
+}
 
 ul{
     margin: 0;

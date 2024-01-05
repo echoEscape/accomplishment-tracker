@@ -1,6 +1,17 @@
 <nav>
     <ul>
-        <li> <span class="material-icons visible-element-grid" id="menuIcon">menu</span></li>
-        <li><span class="material-icons invisible-element" id="closeIcon">close</span></li>
+        <li> 
+            <span class="material-icons" 
+            id="menuIcon"
+            (click)="toggleNavSize();"
+            [ngClass]="toggledNav ? 'hide-element' : ''">menu</span>
+        </li>
+        <li>
+            <span 
+            class="material-icons" 
+            id="closeIcon"
+            (click)="toggleNavSize();"
+            [ngClass]="toggledNav ? '' : 'hide-element'">close</span>
+        </li>
     </ul>
 </nav>

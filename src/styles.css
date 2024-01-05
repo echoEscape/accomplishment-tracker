@@ -23,10 +23,6 @@ body{
     padding: 0;
 }
 
-.visible-element-grid{
-    display: grid;
-}
-
-.invisible-element{
+.hide-element{
     display: none;
 }
