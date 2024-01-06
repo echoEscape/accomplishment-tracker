@@ -13,7 +13,6 @@ body{
 
 app-navigation{
     grid-area: nav;
-    width: max(var(--size-icon));
     background-color: var(--color-main);
 
 }

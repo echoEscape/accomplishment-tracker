@@ -15,7 +15,8 @@
 
     --font-family-headings: "Arial";
 
-    --size-icon: 2.5rem;
+    --size-icon: 2rem;
+    --size-nav-font: 0.5rem;
 }
 
 body{
@@ -25,4 +26,12 @@ body{
 
 .hide-element{
     display: none;
+}
+
+.display-element-block{
+    display: block;
+}
+
+.display-element-grid{
+    display: grid;
 }

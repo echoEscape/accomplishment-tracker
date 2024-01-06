@@ -1,26 +1,36 @@
 nav{
     height: 100vh;
-    display: grid;
-    flex-direction: row;
-    justify-items: center;
-    padding-top: 1rem;
-}
-nav>ul>li{
-    cursor: pointer;
+    padding-top: 0.5rem;
 }
 
-ul{
+nav>ul{
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
 
-#menuIcon{
+nav>ul>li{
+    cursor: pointer;
+
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+
+.nav-icon{
+    grid-area: 'nav-icon';
     color: var(--color-font-darkBG);
     font-size: var(--size-icon);
 }
 
-#closeIcon{
+.nav-name{
+    grid-area: 'nav-name';
     color: var(--color-font-darkBG);
-    font-size: var(--size-icon);
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: var(--size-nav-font);
+    margin: 0;
+    padding-top: 0.25rem;
 }
