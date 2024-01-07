@@ -1,5 +1,13 @@
 <div id="tb-main">
-    <div id="tb-braindump" class="module">braindump</div>
+    <div id="tb-braindump" class="module">
+        <input (keydown.enter)="add_braindump_list($event)"/>
+        <div id="tb-bd-list">
+            <ul>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    
     <div id="tb-prio" class="module">prio</div>
     <div id="tb-timeline" class="module">timeline</div>
 </div>

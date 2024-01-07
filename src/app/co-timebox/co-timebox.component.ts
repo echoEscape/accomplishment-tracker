@@ -9,4 +9,7 @@ import { Component } from '@angular/core';
 })
 export class CoTimeboxComponent {
 
+  public add_braindump_list(inputEvent:any){
+    console.log("Hello");
+  }
 }
