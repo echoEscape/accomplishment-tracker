@@ -1,0 +1,24 @@
+#tb-main{
+    display: grid;
+    grid-template-areas: 
+    'braindump prio'
+    'timeline timeline';
+
+    margin: 1rem;
+}
+
+#tb-main>div{
+    margin: 0.5rem;
+}
+
+#tb-braindump{
+    grid-area: braindump;
+}
+
+#tb-prio{
+    grid-area: prio;
+}
+
+#tb-timeline{
+    grid-area: timeline;
+}

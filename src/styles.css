@@ -5,9 +5,9 @@
     --color-ok: #06d6a0;
     --color-info: #118ab2;
 
-    --color-main: #0f2556;
-    --color-main-accent: #5570aa;
-    --color-sub: #33b881;
+    --color-main: #0b1e46;
+    --color-main-accent: #25417c;
+    --color-sub: #38b681;
     --color-sub-accent: #89eec4;
 
     --color-font-lightBG: #333333;
@@ -15,7 +15,7 @@
 
     --font-family-headings: "Arial";
 
-    --size-icon: 2rem;
+    --size-nav-icon: 1.75rem;
     --size-nav-font: 0.5rem;
 }
 
@@ -30,6 +30,12 @@
 body{
     margin: 0;
     padding: 0;
+}
+
+.module{
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0em 0em 0.4em rgb(185, 185, 185);
+    border-radius: 0.25rem;
 }
 
 .hide-element{

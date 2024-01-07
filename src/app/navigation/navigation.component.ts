@@ -10,9 +10,5 @@ import { CommonModule } from '@angular/common';
 })
 
 export class NavigationComponent {
-  public toggledNav = false;
-  
-  public toggleNavSize(){
-    this.toggledNav = !this.toggledNav;
-  }
+
 }
