@@ -1,6 +1,7 @@
 # AccomplishmentTracker
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8.
+It has been archived due to an outdated use of AngularJS and the fact that it was only meant as a small test project.
 
 ## Usage
 This program is being used to track accomplishments, praise, finished tasks and issues I faced throughout my week at work.
